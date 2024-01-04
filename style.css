@@ -1,0 +1,36 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    height: 30vh;
+}
+
+.header,
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.nav {
+    display: flex;
+    align-items: space-around;
+    flex-direction: column;
+}
+
+.header-links {
+    display: flex;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+}
