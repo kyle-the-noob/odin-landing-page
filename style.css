@@ -47,7 +47,7 @@
     font-weight: 900;
 }
 
-.subtext {
+.hero-subtext {
     color: #e5e7eb;
     font-size: 24px;
 }
@@ -60,6 +60,23 @@
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-1-img,
+.card-2-img,
+.card-3-img,
+.card-4-img {
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+    font-weight: lighter;
+    margin-top: 20px;
 }
 
 .info-header-text {
