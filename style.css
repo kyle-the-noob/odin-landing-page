@@ -69,6 +69,8 @@
 .card-4-img {
     border: 2px solid #3882F6;
     border-radius: 5px;
+    height: 200px;
+    width: 200px;
 }
 
 .card-1,
