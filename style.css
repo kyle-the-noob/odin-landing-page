@@ -26,7 +26,8 @@
 
 .header-links {
     display: flex;
-    align-items: space-around;
+    gap: 8px;
+    list-style-type: none;
 }
 
 .content-left {
