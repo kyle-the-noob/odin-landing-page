@@ -18,7 +18,7 @@
 
 .nav {
     padding: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -33,6 +33,16 @@
     display: flex;
     flex-direction: column;
     width: 500px;
+}
+
+.hero-button,
+.action-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    height: 3vh;
+    width: 250px;
+    margin-right: 40px;
 }
 
 .header-content {
@@ -123,14 +133,10 @@
 }
 
 .action-button {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border: 1px solid #e5e7eb;
-    border-radius: 5px;
-    height: 3vh;
-    margin-left: 40px;
-    display: flex;
-    align-items: center;
+   border: 1px solid #e5e7eb;
+   display: flex;
+   margin-left: 40px;
+   align-items: center;
 }
 
 .footer {
